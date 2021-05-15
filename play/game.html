@@ -5,14 +5,14 @@
 
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <link rel="stylesheet" href="http://play.streety.org/play/assets/css/reset.css">
-    <link rel="stylesheet" href="http://play.streety.org/play/assets/css/style.css">
+    <link rel="stylesheet" href="https://play.streety.org/play/assets/css/reset.css">
+    <link rel="stylesheet" href="https://play.streety.org/play/assets/css/style.css">
 
-    <script src="http://play.streety.org/play/assets/js/jquery-3.4.1.min.js"></script>
+    <script src="https://play.streety.org/play/assets/js/jquery-3.4.1.min.js"></script>
 
     <!-- unity resources -->
-    <script src="http://play.streety.org/play/data/TemplateData/UnityProgress.js" type="text/javascript"></script>
-    <script src="http://play.streety.org/play/data/TemplateData/UnityLoader.js" type="text/javascript"></script>
+    <script src="https://play.streety.org/play/data/TemplateData/UnityProgress.js" type="text/javascript"></script>
+    <script src="https://play.streety.org/play/data/TemplateData/UnityLoader.js" type="text/javascript"></script>
 
     <script type="text/javascript">
       (function(exec) {
@@ -28,7 +28,7 @@
       var canStart = false;
       var startMessageReceived = false;
 
-      var unityInstance = UnityLoader.instantiate("unityContainer", "http://play.streety.org/play/data/TemplateData/game-responsive.json", {onProgress: UnityProgress });
+      var unityInstance = UnityLoader.instantiate("unityContainer", "https://play.streety.org/play/data/TemplateData/game-responsive.json", {onProgress: UnityProgress });
 
       function startGame(){
         if(canStart) unityInstance.SendMessage('GameControl', 'StartGame');
@@ -50,7 +50,7 @@
         </div>
     </div>
 
-    <script src="http://play.streety.org/play/assets/js/app.js"></script>
+    <script src="https://play.streety.org/play/assets/js/app.js"></script>
   
 
 
