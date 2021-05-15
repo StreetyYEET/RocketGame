@@ -1,0 +1,2 @@
+jQuery(document).ready(function($){if(sessionStorage.getItem("postlike-"+bloginfo.post_id.ID)){$('#likebox .like-button').attr('disabled',!0)}
+$('#likebox .like-button').on('click',function(){$.ajax({url:bloginfo.site_url+'/wp-json/example/v2/likes/'+bloginfo.post_id.ID,type:'post',success:function(){console.log('works!')},error:function(){console.log('failed!')}});sessionStorage.setItem("postlike-"+bloginfo.post_id.ID,!0);var updated_likes=parseInt($('.likes-count').html())+1;$('.likes-count').html(updated_likes);$(this).attr('disabled',!0)})})
