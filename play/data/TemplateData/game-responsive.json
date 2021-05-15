@@ -1,9 +1,9 @@
 {
 "companyName": "2i limited",
 "productName": "Raketti mäng",
-"dataUrl": "https://play.streety.org/play/data/TemplateData/game-responsive.data.unityweb",
-"wasmCodeUrl": "https://play.streety.org/play/data/TemplateData/game-responsive.wasm.code.unityweb",
-"wasmFrameworkUrl": "https://play.streety.org/play/data/TemplateData/game-responsive.wasm.framework.unityweb",
+"dataUrl": "game-responsive.data.unityweb",
+"wasmCodeUrl": "game-responsive.wasm.code.unityweb",
+"wasmFrameworkUrl": "game-responsive.wasm.framework.unityweb",
 "TOTAL_MEMORY": 268435456,
 "graphicsAPI": ["WebGL 2.0", "WebGL 1.0"],
 "webglContextAttributes": {"preserveDrawingBuffer": false},
