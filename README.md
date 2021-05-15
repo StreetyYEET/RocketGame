@@ -1,3 +1,3 @@
 # RocketGame
-![GitHub Logo](/play/assets/preview2.png)
-Format: ![Preview](url)
+![Preview](play.2i.ee/play/assets/preview2.png)
+Format: ![Alt Text](url)
